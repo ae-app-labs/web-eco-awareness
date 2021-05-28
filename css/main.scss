@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Spartan:wght@400;700&display=swap');
+
+$primary:#22b385;
+$primary-dark: #0a515a; 
+
+$family-sans-serif: 'Rubik', sans-serif;
+$family-secondary:'Spartan', sans-serif;
+
+@import "../node_modules/bulma/bulma.sass";
+
+
+body {
+    .hero-landing{
+        background: url('../assets/hero.png') center ;
+        background-size: cover;
+    }
+    .hero-explore{
+        background: url('../assets/vineyard.png') center;
+        background-size: cover;
+    }
+}
